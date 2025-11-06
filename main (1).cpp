@@ -2,9 +2,9 @@
 #include <string>
 using namespace std;
 
-// --------------------------------------------------
+
 // Structure for IT Support Issue (Singly Linked List Node)
-// --------------------------------------------------
+
 struct Issue {
     int id;
     string employeeName;
@@ -62,9 +62,9 @@ public:
     }
 };
 
-// --------------------------------------------------
+
 // Circular Queue for Managing Service Queue
-// --------------------------------------------------
+
 class CircularQueue {
     int front, rear, size;
     int* queue;
@@ -134,9 +134,7 @@ public:
     }
 };
 
-// --------------------------------------------------
-// Main Program
-// --------------------------------------------------
+
 int main() {
     IssueList issues;
     CircularQueue serviceQueue(5);
